@@ -11,7 +11,7 @@ $final = array_reverse($words);
 foreach($final as $value){
     
     $strlen = strlen( $value );
-        for( $i = 0; $i <= $strlen; $i++ ) {
+        for( $i = 0; $i < $strlen; $i++ ) {
             $a.=  $char = substr( $value, $i, 1 );
             echo $a;
             echo "<br>";
